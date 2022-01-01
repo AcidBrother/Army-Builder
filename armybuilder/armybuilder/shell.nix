@@ -2,7 +2,6 @@
 let
   my-python = pkgs.python3;
   python-with-my-packages = my-python.withPackages (p: with p; [
-    pandas
     requests
     flask
  # other python packages you want
